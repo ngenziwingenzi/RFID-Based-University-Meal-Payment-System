@@ -9,9 +9,9 @@
 MFRC522 rfid(SS_PIN, RST_PIN);
 WiFiClient client;
 
-const char* ssid = "Gloria";
+const char* ssid = "SAM";
 const char* password = "12345678";
-const char* server_url = "http://192.168.137.228:8000/api/refill/";
+const char* server_url = "http://192.168.137.61:8000/api/refill/";
 
 void setup() {
   Serial.begin(9600);
